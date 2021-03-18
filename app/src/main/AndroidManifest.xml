@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackMvvm">
-        <activity android:name=".lifecycle.TestLifecycleActivity"></activity>
+        <activity android:name=".livedata.LiveDataActivity"></activity>
+        <activity android:name=".lifecycle.TestLifecycleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
