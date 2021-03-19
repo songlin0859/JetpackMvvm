@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.sl.jetpackmvvm.lifecycle.TestLifecycleActivity
 import com.sl.jetpackmvvm.livedata.LiveDataActivity
+import com.sl.jetpackmvvm.viewmodel.ViewModelActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,5 +20,9 @@ class MainActivity : AppCompatActivity() {
 
     fun liveData(view: View) {
         startActivity(Intent(this, LiveDataActivity::class.java))
+    }
+
+    fun viewModel(view: View) {
+        startActivity(Intent(this, ViewModelActivity::class.java))
     }
 }
