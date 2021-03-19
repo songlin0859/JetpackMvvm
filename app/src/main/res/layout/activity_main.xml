@@ -25,4 +25,10 @@
         android:text="viewModel"
         android:onClick="viewModel"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mvvm"
+        android:onClick="mvvm"/>
+
 </LinearLayout>

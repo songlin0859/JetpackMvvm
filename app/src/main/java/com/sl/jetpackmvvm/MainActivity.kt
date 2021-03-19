@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.sl.jetpackmvvm.lifecycle.TestLifecycleActivity
 import com.sl.jetpackmvvm.livedata.LiveDataActivity
+import com.sl.jetpackmvvm.mvvm.MvvmActivity
 import com.sl.jetpackmvvm.viewmodel.ViewModelActivity
 
 class MainActivity : AppCompatActivity() {
@@ -24,5 +25,9 @@ class MainActivity : AppCompatActivity() {
 
     fun viewModel(view: View) {
         startActivity(Intent(this, ViewModelActivity::class.java))
+    }
+
+    fun mvvm(view: View) {
+        startActivity(Intent(this, MvvmActivity::class.java))
     }
 }
